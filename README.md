@@ -34,6 +34,7 @@ net.createServer(function (socket) {
         console.log(solardata);
     });
 }).listen(argv.port);
+```
 
 ## JSON object output
 
