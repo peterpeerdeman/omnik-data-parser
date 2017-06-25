@@ -1,5 +1,7 @@
 # omnik-data-parser
 
+[![Build Status](https://travis-ci.org/peterpeerdeman/omnik-data-parser.svg?branch=master)](https://travis-ci.org/peterpeerdeman/omnik-data-parser)
+
 Parses omnik solar inverter data and returns the data in a structured readable json object
 
 ## Installation
