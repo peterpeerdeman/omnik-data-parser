@@ -25,8 +25,7 @@ function parseOmnikData(data) {
     const omnikSolarByteData = new Parser()
         .string('header', {
             encoding: 'hex',
-            length: 4,
-            assert: '68a941b0'
+            length: 4
         })
         .string('unknown', {
             encoding: 'hex',

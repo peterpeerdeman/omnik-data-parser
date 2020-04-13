@@ -34,15 +34,6 @@ describe('Omnik Data Parser', () => {
         }).to.throw('omnik data is too short');
     });
 
-    it('should throw an error when the magic header is not matched', () => {
-        const data = fs.readFileSync('test/testcapture-omnik-2000tl2-03-badheader.cap');
-
-        expect(function() {
-            omnikDataParser(data);
-        }).to.throw('Assert error: vars.header is 00a941b0');
-    });
-
-
     it('should not parse incorrect temperature data', () => {
         const data = fs.readFileSync('test/testcapture-omnik-2000tl2-02-cloudy.cap');
         const result = omnikDataParser(data);
