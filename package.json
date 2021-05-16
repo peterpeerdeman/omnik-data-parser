@@ -1,6 +1,6 @@
 {
   "name": "omnik-data-parser",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Parses omnik solar inverter data and returns the data in a structured readable json object",
   "main": "index.js",
   "dependencies": {
